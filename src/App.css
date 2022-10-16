@@ -15,19 +15,8 @@ a {
 }
 
 .gradient__bg {
-  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-
-  /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-
-  /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-
-  /* ie 10+ */
-  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
-
-  /* global 92%+ browsers support */
-  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  background: rgb(78,112,37);
+background: radial-gradient(circle, rgba(78,112,37,1) 4%, rgba(93,135,17,1) 9%, rgba(112,158,49,1) 14%, rgba(166,179,59,1) 22%, rgba(184,187,151,1) 38%, rgba(255,232,100,1) 62%, rgba(153,139,11,1) 81%, rgba(141,113,9,1) 85%, rgba(141,113,9,1) 89%, rgba(91,62,1,1) 100%, rgba(5,5,4,1) 100%, rgba(255,173,0,1) 100%, rgba(79,63,29,1) 120%, rgba(20,15,3,1) 136%);
 }
 
 .gradient__text {
